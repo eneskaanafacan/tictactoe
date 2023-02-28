@@ -13,9 +13,15 @@ Hangi oyuncunun dönüşünü ve kaç tur oynandığını takip edeceğiz. Bir k
 ## ```tictactoe``` class
 Oluşturduğunuz her metot bu sınıf tarafından kapsüllenecektir.
 
-## ````initialize```` ve ````@board````
+## ````#initialize```` ve ````@board````
 #Initialize metodunuz, oyun tahtasını temsil eden yeni, boş bir diziyi @board değişkenine atamalıdır.
 
 ## ``WIN_COMBINATIONS``
 Tictactoe sınıfı içinde bir Win_Combinations sabitini tanımlayın ve Tic Tac kurallarında mümkün olan sekiz kazanan kombinasyonu için dizin değerleriyle dolu iç içe bir dizi oluşturun.
-`WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [6,4,2]]`
+```ruby 
+WIN_COMBINATIONS = [[0,1,2], [3,4,5], [6,7,8], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [6,4,2]] 
+```
+## Yardımcı Metotlar
+Tanımlayacağımız bir sonraki metotlar, yardımcı metotlardır . Bu, kodumuzu DRY ve iyi kapsüllenmiş tutar - her metodun tek bir sorumluluğu vardır - bu da kodun okunurluğunu ve geliştirilmesini kolaylaştırır.
+
+````...````
